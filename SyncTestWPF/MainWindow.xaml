@@ -21,19 +21,19 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Column="1" Grid.Row="1">
-            <CheckBox>Enable button 1</CheckBox>
-            <CheckBox>Enable button 2</CheckBox>
-            <CheckBox>Enable button 3</CheckBox>
-            <CheckBox>Enable button 4</CheckBox>
-            <CheckBox>Enable button 5</CheckBox>
+            <CheckBox Name="checkBox1" Checked="CheckBox_Checked" Unloaded="CheckBox_UnChecked">Enable button 1</CheckBox>
+            <CheckBox Name="checkBox2" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 2</CheckBox>
+            <CheckBox Name="checkBox3" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 3</CheckBox>
+            <CheckBox Name="checkBox4" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 4</CheckBox>
+            <CheckBox Name="checkBox5" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 5</CheckBox>
         </StackPanel>
 
         <StackPanel Grid.Column="2" Grid.Row="1">
-            <Button>Button 1</Button>
-            <Button>Button 2</Button>
-            <Button>Button 3</Button>
-            <Button>Button 4</Button>
-            <Button>Button 5</Button>
+            <Button Name="button1" IsEnabled="False">Button 1</Button>
+            <Button Name="button2" IsEnabled="False">Button 2</Button>
+            <Button Name="button3" IsEnabled="False">Button 3</Button>
+            <Button Name="button4" IsEnabled="False">Button 4</Button>
+            <Button Name="button5" IsEnabled="False">Button 5</Button>
         </StackPanel>
     </Grid>
 </Window>
