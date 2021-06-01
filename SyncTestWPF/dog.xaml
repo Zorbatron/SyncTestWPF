@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SyncTestWPF"
         mc:Ignorable="d"
-        Title="dog" Height="512" Width="489" Icon="dog.png">
+        Title="Dog" Height="512" Width="489" Icon="dog.png">
     <Grid>
         <Image Source="dog.png"/>
     </Grid>
