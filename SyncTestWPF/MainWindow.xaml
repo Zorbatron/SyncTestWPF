@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SyncTestWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="400">
+        Title="MainWindow" Height="300" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>
@@ -16,6 +16,7 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="10"/>
+            <RowDefinition Height="100"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
@@ -35,5 +36,7 @@
             <Button Name="button4" IsEnabled="False" Click="button4_Click">Button 4</Button>
             <Button Name="button5" IsEnabled="False" Click="button5_Click">Button 5</Button>
         </StackPanel>
+
+        <Image Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Margin="10" Source="dog.png"/>
     </Grid>
 </Window>
