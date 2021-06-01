@@ -57,5 +57,30 @@ namespace SyncTestWPF
                 button5.IsEnabled = false;
             }
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button 1 was clicked");
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button 2 was clicked");
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button 3 was clicked");
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button 4 was clicked");
+        }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button 5 was clicked");
+        }
     }
 }
