@@ -20,8 +20,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
-
-        <StackPanel Grid.Column="1" Grid.Row="1">
+        
+        <StackPanel Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <CheckBox Name="checkBox1" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 1</CheckBox>
             <CheckBox Name="checkBox2" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 2</CheckBox>
             <CheckBox Name="checkBox3" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 3</CheckBox>
