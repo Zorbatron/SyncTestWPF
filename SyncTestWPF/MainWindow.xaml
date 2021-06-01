@@ -21,7 +21,7 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Column="1" Grid.Row="1">
-            <CheckBox Name="checkBox1" Checked="CheckBox_Checked" Unloaded="CheckBox_UnChecked">Enable button 1</CheckBox>
+            <CheckBox Name="checkBox1" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 1</CheckBox>
             <CheckBox Name="checkBox2" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 2</CheckBox>
             <CheckBox Name="checkBox3" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 3</CheckBox>
             <CheckBox Name="checkBox4" Checked="CheckBox_Checked" Unchecked="CheckBox_UnChecked">Enable button 4</CheckBox>
