@@ -82,5 +82,11 @@ namespace SyncTestWPF
         {
             MessageBox.Show("Button 5 was clicked");
         }
+
+        private void DogImage_LeftClicked(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            dog dog = new dog();
+            dog.Show();
+        }
     }
 }

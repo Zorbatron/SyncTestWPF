@@ -37,6 +37,7 @@
             <Button Name="button5" IsEnabled="False" Click="button5_Click">Button 5</Button>
         </StackPanel>
 
-        <Image Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Margin="0, 10, 0, 0" Source="dog.png"/>
+        <Image x:Name="dogImage" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Margin="0, 10, 0, 0" Source="dog.png" 
+               MouseLeftButtonUp="DogImage_LeftClicked"/>
     </Grid>
 </Window>
